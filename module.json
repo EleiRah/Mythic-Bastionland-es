@@ -1,12 +1,18 @@
 {
   "id": "Mythic-Bastionland-es",
   "title": "Translation: Español [Mythic Bastionland]",
-  "version": "1.0",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "description": "<p>Traducción al Español del sistema Mythic Bastionland de Loner</p>",
+  "description": "Traducción al Español del sistema Mythic Bastionland de Loner",
+  "version": "1.1",
+  "languages": [{
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/EleiRah/Mythic-Bastionland-es",
+  "manifest": "https://raw.githubusercontent.com/EleiRah/Mythic-Bastionland-es/main/module.json",
+  "download": "https://github.com/EleiRah/Mythic-Bastionland-es/archive/main.zip",
   "authors": [
     {
       "name": "Elei-Rah",
@@ -14,16 +20,23 @@
       "flags": {}
     }
   ],
-  "flags": {
-    "canUpload": true
-  },
   "relationships": {
-    "systems": [
-      {
+    "systems": [{
         "id": "mythicbastionland",
         "type": "system",
+        "compatibility": "1.0.8"
+      }
+    ],
+    "requires": [{
+        "id": "foundryvtt-es",
+        "type": "module",
         "compatibility": {}
       }
     ]
+  },
+  "compatibility": {
+        "minimum": "13",
+    "verified": "13.350",
+    "maximum": "13"
   }
 }
