@@ -1,0 +1,29 @@
+{
+  "id": "Mythic-Bastionland-es",
+  "title": "Translation: Español [Mythic Bastionland]",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Traducción al Español del sistema Mythic Bastionland de Loner</p>",
+  "authors": [
+    {
+      "name": "Elei-Rah",
+      "discord": "Elei-Rah",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mythicbastionland",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
